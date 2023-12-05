@@ -5,6 +5,8 @@ using namespace std;
 
 /* Commify
   - Add commas between big numbers
+  - SOURCES
+	* https://stackoverflow.com/questions/15513725/comma-formatting-for-numbers-in-c
 */
 
 string commify(unsigned long long int number, char sep=','){
@@ -20,3 +22,4 @@ string commify(unsigned long long int number, char sep=','){
 	} while (number);
 	return text;
 }
+
